@@ -1,5 +1,8 @@
 main {
   .section-actualite {
+    img {
+      width: 100%;
+    }
     .actualite {
       background-color: #fb8e00;
       text-align: end;
@@ -8,14 +11,14 @@ main {
   }
   .section-societe {
     .societe {
-      background-color: #fb8e00;
+      background-color: #7cd401;
       text-align: end;
       font-size: 100px;
     }
   }
   .section-economie {
     .economie {
-      background-color: #fb8e00;
+      background-color: #c4007a;
       text-align: end;
       font-size: 100px;
     }
