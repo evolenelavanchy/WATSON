@@ -1,0 +1,190 @@
+main {
+  .section-actualite {
+    .article-padding {
+      position: relative;
+      bottom: 90px;
+      img {
+        height: 420px;
+      }
+    }
+    .article-actualite {
+      // .col-8 {
+      //   padding: 5px;
+      //   padding-top: 100px;
+      // }
+      // .col-4 {
+      //   padding: 5px;
+      //   padding-top: 100px;
+      // }
+      img {
+        width: 100%;
+      }
+    }
+    .actualite {
+      background-color: #fb8e00;
+      text-align: end;
+      font-size: 100px;
+      margin-top: 100px;
+    }
+  }
+  .section-societe {
+    .article-padding {
+      position: relative;
+
+      img {
+        height: 1000px;
+      }
+    }
+    .article-societe {
+      // .col-12 {
+      //   padding: 5px;
+      //   padding-top: 200px;
+      // }
+      // .col-6 {
+      //   padding: 5px;
+      //   padding-top: 10px;
+      //   padding-bottom: 140px;
+      // }
+      img {
+        width: 100%;
+      }
+    }
+    .societe {
+      background-color: #7cd401;
+      text-align: end;
+      font-size: 100px;
+    }
+  }
+  .section-economie {
+    img {
+      width: 100%;
+    }
+    .economie {
+      background-color: #c4007a;
+      text-align: end;
+      font-size: 100px;
+    }
+    .color-img-special img {
+      height: 290px;
+      bottom: 93px;
+      position: relative;
+    }
+    .color-img-special {
+      h4 {
+        color: white;
+        position: relative;
+        bottom: 240px;
+        text-align: end;
+        right: 25px;
+        font-size: 24px;
+        text-transform: uppercase;
+      }
+      h6 {
+        position: relative;
+        bottom: 225px;
+      }
+
+      h1 {
+        position: relative;
+        bottom: 93px;
+      }
+      h2 {
+        position: relative;
+        bottom: 200px;
+      }
+      .icon-heart {
+        fill: #f40f97;
+        position: relative;
+        bottom: 20px;
+        left: 25px;
+        z-index: 1;
+      }
+    }
+  }
+}
+
+main {
+  .greyscale {
+    filter: brightness(50%) grayscale(1);
+  }
+
+  .color-img {
+    filter: brightness(50%);
+  }
+  .icon-heart {
+    fill: #f40f97;
+    position: relative;
+    top: 80px;
+    left: 25px;
+    z-index: 1;
+  }
+
+  h1 {
+    color: rgb(165, 165, 165);
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+  }
+  h2 {
+    color: rgb(165, 165, 165);
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+    position: relative;
+    top: 47px;
+    left: 65px;
+    z-index: 1;
+    text-decoration: underline;
+  }
+
+  h3 {
+    color: white;
+    text-align: end;
+    position: relative;
+    bottom: 250px;
+    right: 30px;
+    font-size: 48px;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    color: white;
+    position: relative;
+    bottom: 140px;
+    text-align: end;
+    right: 25px;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+  h5 {
+    color: rgb(165, 165, 165);
+    font-size: 20px;
+    text-align: end;
+    position: relative;
+    right: 30px;
+    bottom: 235px;
+  }
+  h6 {
+    color: rgb(165, 165, 165);
+    font-size: 20px;
+    text-align: end;
+    position: relative;
+    right: 30px;
+    bottom: 130px;
+  }
+
+  .size-text {
+    color: white;
+    position: relative;
+    bottom: 140px;
+    text-align: end;
+    right: 25px;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+}
+
+.card {
+  padding: 5px;
+}

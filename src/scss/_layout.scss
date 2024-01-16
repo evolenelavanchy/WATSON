@@ -1,26 +1,9 @@
-main {
-  .section-actualite {
-    img {
-      width: 100%;
-    }
-    .actualite {
-      background-color: #fb8e00;
-      text-align: end;
-      font-size: 100px;
-    }
-  }
-  .section-societe {
-    .societe {
-      background-color: #7cd401;
-      text-align: end;
-      font-size: 100px;
-    }
-  }
-  .section-economie {
-    .economie {
-      background-color: #c4007a;
-      text-align: end;
-      font-size: 100px;
-    }
-  }
+.card {
+  border: 3px solid red;
+  background-color: #f006;
+  min-height: 200px;
+}
+
+.card-big {
+  min-height: 450px;
 }
