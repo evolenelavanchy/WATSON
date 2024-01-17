@@ -28,6 +28,7 @@ body {
   line-height: 1.25;
   background-color: black;
   color: white;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -39,19 +40,21 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
+  width: 100%;
 }
 
-.row + .row {
-  margin-top: 16px;
-}
+// .row + .row {
+//   margin-top: 16px;
+// }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(218, 15, 65, 0.15);
-  border: 1px solid rgba(227, 13, 77, 0.2);
-}
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(218, 15, 65, 0.15);
+//   border: 1px solid rgba(227, 13, 77, 0.2);
+// }
+
 /* ====================================
 // base rules
 // ==================================== */
